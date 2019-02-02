@@ -21,5 +21,6 @@ test-suite tests
    type: exitcode-stdio-1.0
    main-is: Test00.hs
    build-depends:       base,
+                        Solucion00,
                         hspec                >= 2.7
    default-language:    Haskell2010
