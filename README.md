@@ -28,7 +28,9 @@ Queremos modelar la siguiente función matemática, definida por partes:
 
 ![image](images/graficoFuncion.png)
 
-Se pide definir _f_ en Haskell
+(graficado con [gnuplot](http://www.gnuplot.info/))
+
+Se pide definir _f_ en Haskell, dentro del archivo [Solucion00.hs](./Solucion00.hs)
 
 ## Pruebas
 
