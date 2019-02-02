@@ -59,3 +59,20 @@ También hacer pruebas por error:
       In an equation for `it': it = f 'a'
 ```
 
+## BONUS: Testeo automatizado
+
+Desde la terminal de Visual Studio Code escribimos estos dos comandos:
+
+```bash
+> cabal update
+> cabal install hspec
+```
+
+Nuestra solución tiene que estar escrita en el archivo `Solucion00.hs`, entonces podemos correr pruebas **automatizadas** para nuestra función _f_:
+
+```bash
+> ghci Test00.hs
+> runTests
+```
+
+Para conocer un poco más del testeo unitario automatizado recomendamos leer [este apunte](https://docs.google.com/document/d/17EPSZSw7oY_Rv2VjEX2kMZDFklMOcDVVxyve9HSG0mE/edit#)
