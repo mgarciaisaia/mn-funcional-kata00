@@ -67,7 +67,7 @@ Desde la terminal de Visual Studio Code escribimos estos dos comandos:
 
 ```bash
 > cabal update
-> cabal install hspec
+> cabal install hspec   # este paso no es necesario si tenés un archivo mn-funcional-kata00.cabal
 ```
 
 Nuestra solución tiene que estar escrita en el archivo `Solucion00.hs`, entonces podemos correr pruebas **automatizadas** para nuestra función _f_:
