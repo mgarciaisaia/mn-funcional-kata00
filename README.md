@@ -66,15 +66,13 @@ También hacer pruebas por error:
 Desde la terminal de Visual Studio Code escribimos estos dos comandos:
 
 ```bash
-> cabal update
-> cabal install hspec   # este paso no es necesario si tenés un archivo mn-funcional-kata00.cabal
+stack build
 ```
 
-Nuestra solución tiene que estar escrita en el archivo `Solucion00.hs`, entonces podemos correr pruebas **automatizadas** para nuestra función _f_:
+Nuestra solución tiene que estar escrita en el archivo `Library.hs` del directorio `src`, entonces podemos correr pruebas **automatizadas** para nuestra función _f_:
 
 ```bash
-> ghci Test00.hs
-> runTests
+stack test
 ```
 
 Para conocer un poco más del testeo unitario automatizado recomendamos leer [este apunte](https://docs.google.com/document/d/17EPSZSw7oY_Rv2VjEX2kMZDFklMOcDVVxyve9HSG0mE/edit#)
