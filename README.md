@@ -34,7 +34,13 @@ Se pide definir _f_ en Haskell, dentro del archivo [Solucion00.hs](./Solucion00.
 
 ## Pruebas
 
-Podemos evaluar valores límite de la función f en la consola Haskell:
+Una vez resuelta la función `f` podemos levantar el entorno de Haskell:
+
+```bash
+stack ghci
+```
+
+Y dentro del intérprete podremos evaluar valores límite de la función f en la consola Haskell:
 
 ```hs
 *Main> f 5
