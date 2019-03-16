@@ -63,7 +63,7 @@ También hacer pruebas por error:
 
 ## BONUS: Testeo automatizado
 
-Desde la terminal de Visual Studio Code escribimos estos dos comandos:
+Desde la terminal de Visual Studio Code escribimos:
 
 ```bash
 stack build
