@@ -30,7 +30,7 @@ Queremos modelar la siguiente función matemática, definida por partes:
 
 (graficado con [gnuplot](http://www.gnuplot.info/))
 
-Se pide definir _f_ en Haskell, dentro del archivo [Solucion00.hs](./Solucion00.hs)
+Se pide definir _f_ en Haskell, dentro del archivo [Library.hs](./src/Library.hs)
 
 ## Pruebas
 
