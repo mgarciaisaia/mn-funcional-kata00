@@ -5,4 +5,4 @@ module Library
 import Lib
 
 f :: Integer -> Integer
-f x ...
+f x = 5
