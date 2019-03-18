@@ -5,7 +5,7 @@ jobs:
       - image: debian:stretch
 
     steps:
-      - run: apt-get update && apt-get install -y libgmp-dev curl
+      - run: apt-get update && apt-get install -y libgmp-dev curl build-essential
 
       - checkout
 
